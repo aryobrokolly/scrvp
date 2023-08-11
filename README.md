@@ -1,5 +1,6 @@
-### PREMIUM FREE INSTALL AUTOSCRIPT XRAY  ==>>VMESS ALL/MULTI/DYNAMIC UPDATE PATH 
-<li><code>Note !!!  menu script sudah bwanaan Xray-core mod  ( support all/multipath) menu xray official tidak support all/multipath </code></li>
+### PREMIUM FREE INSTALL AUTOSCRIPT XRAY  ==>> 
+VMESS ALL/MULTI/DYNAMIC UPDATE PATH
+<li><code>Note !!!  menu script sudah bawaan Xray-core mod  ( support all/multipath) menu xray official tidak support all/multipath </code></li>
 </ul>
 <table>
 <thead>
