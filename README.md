@@ -117,6 +117,6 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && reboot
 ```
               
 ```
-wget -q -O xray https://raw.githubusercontent.com/arismaramar/scxray/main/xray.sh && chmod +x xray && ./xray
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget -q -O xray https://raw.githubusercontent.com/aryobrokolly/scrvp/main/xray.sh && chmod +x xray && ./xray
 ```
 ![img|320x271](https://github.com/aryobrokolly/scrvp/assets/98819851/c6356ebb-0983-4e45-b0b9-0b7f898e9e49)
