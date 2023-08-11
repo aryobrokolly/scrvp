@@ -119,3 +119,4 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && reboot
 ```
 wget -q -O xray https://raw.githubusercontent.com/arismaramar/scxray/main/xray.sh && chmod +x xray && ./xray
 ```
+![photo_2023-08-11_15-51-09](https://github.com/aryobrokolly/scrvp/assets/98819851/7766cb7d-142d-4300-b574-ae8a10b1e0de)
