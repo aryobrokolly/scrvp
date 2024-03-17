@@ -74,10 +74,10 @@ if [ $CNT -ge $4 ]; then
 		"reboot")
 			[ -e /etc/lite_watchdog.user ] && env -i ACTION="reboot" /bin/sh /etc/lite_watchdog.user
 
-			date +"%A %T %d-%m-%Y Status: OFFLINE > Action: Reboot" >> $LOG_FILE && sleep 5
+			date +"%A %T %d-%m-%Y Status: OFFLINE > Action: Mode Pesawat Aktif" >> $LOG_FILE && sleep 5
 
 			logger -t LITE-WATCHDOG "Reboot"
-			mhp iphunter
+			modpeshp
 			;;
 		"wan")
 			[ -e /etc/lite_watchdog.user ] && env -i ACTION="wan" /bin/sh /etc/lite_watchdog.user
