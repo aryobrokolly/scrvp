@@ -1,0 +1,5 @@
+ipmodem=$(route -n|awk '{print $2}'|grep 192.168|head -n1)
+curl -s --header "Referer: http://$ipmodem/index.html" -d 'isTest=false&goformId=LOGIN&password=YWRtaW4xMzI=' http://$ipmodem/goform/goform_set_cmd_process
+curl -s --header "Referer: http://$ipmodem/index.html" -d 'isTest=false&notCallback=true&goformId=DISCONNECT_NETWORK' http://$ipmodem/goform/goform_set_cmd_process
+sleep 3
+curl -s --header "Referer: http://$ipmodem/index.html" -d 'isTest=false&notCallback=true&goformId=CONNECT_NETWORK' http://$ipmodem/goform/goform_set_cmd_process
