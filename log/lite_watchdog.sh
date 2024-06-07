@@ -1,4 +1,5 @@
 #!/bin/sh
+#Tutorial https://bit.ly/aryochannel
 
 # $1 delay time
 # $2 ping count
