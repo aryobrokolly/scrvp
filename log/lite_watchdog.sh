@@ -77,7 +77,7 @@ if [ $CNT -ge $4 ]; then
 			date +"%A %T %d-%m-%Y Status: OFFLINE > Action: Reboot" >> $LOG_FILE && sleep 5
 
 			logger -t LITE-WATCHDOG "Reboot"
-			mbit
+			python3 /usr/bin/orbit.py
 			;;
 		"wan")
 			[ -e /etc/lite_watchdog.user ] && env -i ACTION="wan" /bin/sh /etc/lite_watchdog.user
